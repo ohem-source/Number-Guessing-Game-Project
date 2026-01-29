@@ -1,11 +1,5 @@
 import random
 
-#phases of code:
-# pre-code: import the 'random' directory for random order on the hidden number variable
-#1. declare the function of number guessing game
-#2. declare two variables, one is an integer that receives a random integer number between 1 to 100, and the second comes for user input guess.
-#3. declare conditions with if-else statements and for loop. the user will have up to seven tries to guess the number between 1 to 100 on integers only, and will have specific respond if it's too high, too low or exact.
-#. using break order to finish the program
 def guess_the_number():
     
     random_number = random.randint(1, 100)
